@@ -772,9 +772,22 @@ body{
 .isotope-item{
 	top: 38px !important;
 }
+.picsGallBig{
+	max-width: 100%; 
+	height: auto;
+}
 .picsGall{
 	max-width: 100%; 
 	height: auto;
+}
+@media screen and (min-width: 992px){
+	.picsGall {
+		max-width: 100%;
+		height: auto;
+		transform: translateX(-50%);
+		position: relative;
+		left: 50%;
+	}
 }
 .pretty .img-responsive{
 	transition-duration: 0.5s;
